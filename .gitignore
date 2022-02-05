@@ -1,2 +1,4 @@
 /myvenv
 /.idea
+db.sqlite3
+/mysite/__pycache__/
