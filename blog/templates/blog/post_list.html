@@ -9,7 +9,10 @@
 </header>
 {% for post in posts %}
     <article>
+        <h6><time>Published at: {{ post.published_date }}</time></h6>
+        <h2><a href="">{{ post.title }}</a></h2>
         <p>{{ post.text }}</p>
+        <br>
     </article>
 {% endfor %}
 </body>
