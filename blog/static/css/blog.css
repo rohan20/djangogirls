@@ -1,0 +1,19 @@
+body {
+    padding: 16px;
+}
+
+article {
+    padding-top: 12px;
+}
+
+h2 a {
+    color: green;
+}
+
+h6 {
+    color: blue;
+}
+
+h1 a {
+    color: red;
+}
