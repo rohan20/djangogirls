@@ -10,12 +10,12 @@
     <title>Django Girls blog</title>
 </head>
 <body>
-<header>
+<header class="page-header">
     <h1><a href="/">Django Girls Blog</a></h1>
 </header>
 {% for post in posts %}
-    <article>
-        <h6>
+    <article class="post">
+        <h6 class="date">
             <time>Published at: {{ post.published_date }}</time>
         </h6>
         <h2><a href="">{{ post.title }}</a></h2>
