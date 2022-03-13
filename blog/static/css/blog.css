@@ -17,3 +17,7 @@ h6 {
 h1 a {
     color: red;
 }
+
+h1, h2, h6, body {
+    font-family: 'Lobster', serif;
+}
